@@ -79,7 +79,7 @@ class WasteRecognitionApp:
         self.last_update_time = 0
 
         # ===== Load model YOLO =====
-        model_path = "D:/CNTT-SGU/HK5/Python/TrainAIFinal/TrainAIFinal/train/yolo_train2/weights/best.pt"
+        model_path = "ModelAI.pt"
 
         if os.path.exists(model_path):
             self.model = YOLO(model_path)

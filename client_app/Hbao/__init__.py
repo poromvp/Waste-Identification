@@ -79,7 +79,7 @@ class WasteRecognitionApp:
         self.last_update_time = 0
 
         # ===== Load model YOLO =====
-        model_path = "ModelAI.pt"
+        model_path = "D:\\Python\\Garbage_Identify\\client_app\\Hbao\\ModelAI.pt"
 
         if os.path.exists(model_path):
             self.model = YOLO(model_path)
